@@ -426,10 +426,10 @@ a {
     margin-bottom: 0; }
   .contentServices blockquote.activeBlockquote {
     display: block;
-    animation: slideDown 1s forwards; }
+    animation: slideDown 1s; }
     @media (max-width: 48rem) {
       .contentServices blockquote.activeBlockquote {
-        animation: slideDownMobile 1s forwards; } }
+        animation: slideDown 1s; } }
 @keyframes slideDown {
   from {
     opacity: 0;
