@@ -137,7 +137,7 @@ a {
     color: #567482;
     background-color: #f3f6fa;
     border-radius: 0.3rem; }
-  .main-content pre {
+  .main-content pre, .main-content .return-adress {
     padding: 0.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -147,7 +147,7 @@ a {
     background-color: #f3f6fa;
     border: solid 1px #dce6f0;
     border-radius: 0.3rem; }
-    .main-content pre > code {
+    .main-content pre > code, .main-content .return-adress > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
@@ -158,11 +158,11 @@ a {
       border: 0; }
   .main-content .highlight {
     margin-bottom: 1rem; }
-    .main-content .highlight pre {
+    .main-content .highlight pre, .main-content .highlight .return-adress {
       margin-bottom: 0;
       word-break: normal; }
   .main-content .highlight pre,
-  .main-content pre {
+  .main-content pre, .main-content .return-adress {
     padding: 0.8rem;
     overflow: auto;
     font-size: 0.9rem;
@@ -472,7 +472,7 @@ a {
     border: 0;
     border-radius: 4px;
     font-size: 1rem; }
-  #form form pre {
+  #form form pre, #form form .return-adress {
     width: 100%;
     background: transparent;
     border: none;
