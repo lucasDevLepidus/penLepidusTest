@@ -233,7 +233,7 @@ a {
     border-radius: 0.3rem;
   }
 
-  pre {
+  pre, .return-adress {
     padding: 0.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -259,14 +259,14 @@ a {
   .highlight {
     margin-bottom: 1rem;
 
-    pre {
+    pre, .return-adress {
       margin-bottom: 0;
       word-break: normal;
     }
   }
 
   .highlight pre,
-  pre {
+  pre, .return-adress {
     padding: 0.8rem;
     overflow: auto;
     font-size: 0.9rem;
